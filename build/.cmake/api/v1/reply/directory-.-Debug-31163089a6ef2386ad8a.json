@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"CMakeLists-zip.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"Notes.txt",
+				"CMakeLists.txt",
+				"CMakeLists-zip.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "src",
+			"paths" : 
+			[
+				"ext/imgui/imgui_demo.cpp",
+				"ext/imgui/imgui_draw.cpp",
+				"ext/imgui/imgui_impl_sdl.cpp",
+				"ext/imgui/imgui_impl_sdlrenderer.cpp",
+				"ext/imgui/imgui_tables.cpp",
+				"ext/imgui/imgui_widgets.cpp",
+				"ext/imgui/imgui.cpp",
+				"src/main_imgui.cpp",
+				"src/stb_image.h",
+				"src/stb_image_resize.h",
+				"src/stb_image_write.h",
+				"src/airbrush.cpp",
+				"src/airbrush.h",
+				"src/image.cpp",
+				"src/image.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"artwork"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
